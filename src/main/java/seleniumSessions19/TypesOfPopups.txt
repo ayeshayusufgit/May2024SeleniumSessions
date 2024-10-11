@@ -1,0 +1,38 @@
+There are 3 different types of Javascript Popups:
+These popups cannot be inspected as its not part of the html dom
+
+1.	Alert Popup -> alert('Hello java automation!');
+This is used to display the normal message or error message in a popup.
+This popup has only 1 button and ie Cancel
+
+2.	Confirmation Popup ->	confirm('Are you sure you want to delete this user?');
+3.This is called a Confirmation popup.	Itll ask the user if u want to delete this with 2
+buttons Cancel(The popup is dismissed from the page) and 
+Okay(To confirm on the action when clicking on Okay)
+
+3.	Prompt Popup -> prompt('Enter your userid');
+Will ask some information from the user. It has only 1 text field. 
+It has 2 buttons Cancel and Okay.
+
+Note:
+1.Once any of the above popups come, the whole page gets disabled
+2.At a time there can be only 1 popup in the page
+
+
+===========================================================================
+Basic Authentication Popup
+Whenever an application is launched where the login page is not displayed
+or
+page is under progress
+or
+Some internal application
+or
+Some server url is being accessed
+a)A popup is seen with the Username: and Password: textfields and Cancel and Sign In buttons 
+b)if the wrong username n password is entered in the auth popup you wont be able to login
+c)if the right username n password is entered in the auth popup you will be able to login and the Home Page will be displayed
+d)These popups cannot be inspected, its blocking the HTML DOM
+e)To handle these kinds of popups you have to pass the username and password through the url
+https://admin:admin@the-internet.herokuapp.com/basic_auth
+username:admin
+password:admin

@@ -1,0 +1,7 @@
+package seleniumSessions3_topcasting;
+
+public class FrameworkException extends RuntimeException{
+	public FrameworkException(String mesg) {
+		super(mesg);
+	}
+}

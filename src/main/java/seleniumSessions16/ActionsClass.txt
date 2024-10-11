@@ -1,0 +1,17 @@
+Actions Class is used for mouse and keyboard related options.This is there in the Selenium library.
+
+
+https://www.spicejet.com/ hover over spicejet->Add Ons
+	
+There are some hidden elements in a page which become visible on hovering
+over Add-Ons in the Spicejet page and this is called Parent-Sub Menu handling
+Spice Jet.com has only 2 levels, whereas BigBasket.com has 4 levels
+
+The actions that can be performed is all follows like:
+1.mouse actions
+2.keyboard actions(enter something using keyboard)
+3.drag n drop
+4.double click etc
+(All the actions performed by the keyboard and mouse can be done by the Actions Class)
+ 
+

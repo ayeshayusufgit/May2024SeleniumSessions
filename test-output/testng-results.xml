@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-16T17:16:56 IST" name="TestNG Sanity Suite" finished-at="2024-09-16T17:17:09 IST" duration-ms="13153">
+    <groups>
+    </groups>
+    <test started-at="2024-09-16T17:16:56 IST" name="Opencart Search Test" finished-at="2024-09-16T17:17:09 IST" duration-ms="13153">
+      <class name="seleniumSession28.OpenCartLoginPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:seleniumSession28.OpenCartLoginPageTest@4fb3ee4e]" started-at="2024-09-16T17:16:56 IST" name="setUp" finished-at="2024-09-16T17:17:01 IST" duration-ms="4617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://naveenautomationlabs.com/opencart/index.php?route=account/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:seleniumSession28.OpenCartLoginPageTest@4fb3ee4e]" started-at="2024-09-16T17:17:01 IST" name="searchTest" data-provider="getSearchData" finished-at="2024-09-16T17:17:03 IST" duration-ms="2212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Pro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:seleniumSession28.OpenCartLoginPageTest@4fb3ee4e]" started-at="2024-09-16T17:17:03 IST" name="searchTest" data-provider="getSearchData" finished-at="2024-09-16T17:17:05 IST" duration-ms="2166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[imac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:seleniumSession28.OpenCartLoginPageTest@4fb3ee4e]" started-at="2024-09-16T17:17:05 IST" name="searchTest" data-provider="getSearchData" finished-at="2024-09-16T17:17:07 IST" duration-ms="1919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung Galaxy Tab 10.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:seleniumSession28.OpenCartLoginPageTest@4fb3ee4e]" started-at="2024-09-16T17:17:07 IST" name="searchTest" data-provider="getSearchData" finished-at="2024-09-16T17:17:09 IST" duration-ms="1912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung SyncMaster 941BW]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumSession28.OpenCartLoginPageTest@4fb3ee4e]" started-at="2024-09-16T17:17:09 IST" name="tearDown" finished-at="2024-09-16T17:17:09 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumSession28.OpenCartLoginPageTest -->
+    </test> <!-- Opencart Search Test -->
+  </suite> <!-- TestNG Sanity Suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+WebDriver Interface has Timeouts and Navigation Interface, instead of having so many .class files these interfaces are grouped in WebDriver
+
+Navigation is the property of WebDriver Interface
+
+====================================
+https://sqa.stackexchange.com/questions/50332/run-as-testng-is-not-found-in-eclipse
+To install the testNG plugin(the older testNG plugins were not working)
+
+Help--->Install new software-->already installed --->TestNG (All)---> Uninstall ---> restart now (Eclipse will restart)
+
+After restart again Help-->Install new software --> Clicks on 'Add' ---> Name TESTNG URL - https://testng.org/testng-eclipse-update-site/7.4.0/ ---> Ok
+
+After install restart now Eclipse
+
+You got the TestNG

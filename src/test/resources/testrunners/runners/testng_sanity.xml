@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Sanity Suite" verbose="3" thread-count="3"
+	parallel="tests">
+	
+	<test name="Opencart Search Test">
+		<parameter name="url" value="https://naveenautomationlabs.com/opencart/index.php?route=account/login" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="seleniumSession28.OpenCartLoginPageTest" />
+		</classes>
+	</test>
+</suite>
+
+<!-- Only the tests important for the sanity point of view-->

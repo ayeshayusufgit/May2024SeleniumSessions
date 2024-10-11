@@ -1,0 +1,42 @@
+whenever a webpage is launched through a browser and an xpath is written in chrome or firefox
+Every browser has an engine called the "Xpath Engine" and this is specific for all the browsers
+Chrome, Firefox or Edge browser each of them have their own Xpath Engine
+When we are writing By.xpath() for example in Chrome, Chrome is interacting with the xpath engine
+and the xpath engine is finding the element from the xpath given in the DOM.Once the element is
+available either the WebElement is returned or an action like click() is performed or
+the text from the WE is returned.The same behaviour is seen on FF, Edge or other browsers.
+The speed of the xpath depends on the xpath engine(this is specific for every browser).
+Xpath engine fetches the element from the DOM depending on the xpath defined in the By locator.
+Many yrs back when IE used to be used its xpath engine was very slow, suppose if it takes 1 hr
+on Chrome to execute 50 tests then the same tests would take 2 hrs on IE. Now the Chrome and 
+the Edge browser has a very special Chromium Engine which is used by Chrome n Edge.Thus both have 
+similar performances wrt to the xpaths. If very old versions of chrome or ie or ff are used then
+in that case the performance will be slow due to the xpath engines.These days nobody uses those
+browsers.If a test uses 100 xpaths and the CSS Selectors are written for the same elements 
+then in that case it is seen that the xpaths have a better performance.relative xpaths have a
+better performance when compared to absolute xpaths
+	In realtime xpaths and css selectors give good performance but their usage depends on the
+usecase	 
+
+ 
+
+ 
+ 
+ 
+ 
+ https://letcode.in/table
+ To get the calories column:
+ 1.		//div[text()='Calories']/ancestor::thead//following-sibling::tr/td[2]
+ 2.		//div[contains(text(),'Fat (g)')]/ancestor::thead//following-sibling::tr/td[3]		
+ 
+ 
+ Relative Locators:
+ https://www.browserstack.com/guide/relative-locators-in-selenium
+ 
+ https://letcode.in/table
+ 
+ To get a row wrt to a dessert
+ //td[text()='Frozen yogurt']/following-sibling::td
+ 
+ To get a column from a table will be by an index(in this case Calories is being displayed)
+ //table[@class='mat-sort table is-bordered is-striped is-narrow is-hoverable is-fullwidth']//td[2]

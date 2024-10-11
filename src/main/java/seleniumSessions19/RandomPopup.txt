@@ -1,0 +1,20 @@
+1.On launching a web url
+2.Suddenly affter 2 mins a random popup(advertising) is seen,cancel that popup
+3.Do some activity on the webapp
+3.again a random popup is seen after 5 mins,cancel that popup
+3.Do some activity on the webapp
+4.again a random popup is seen after 10 mins,cancel that popup
+ 5.These popups come in the Production Environment
+ Can this be handled?
+ 
+How do we know wen its coming?
+There is no guarantee whether its coming again?
+The behavior of the random popup cannot be predicted 
+This scenario with random popup cannot be handled with any automation tool
+
+
+Captcha can never be automated
+Random popups cannot be automated as we cannot predict the behavior of the popups
+No automation tools like Selenium, Cypress etc etc can automate Captcha
+
+ 

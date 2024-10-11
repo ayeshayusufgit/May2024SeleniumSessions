@@ -1,0 +1,11 @@
+HasAuthentication is an interface implemented in the ChromiumDriver class
+ChromiumDriver is extending the RemoteWebDriver and implementing the register() of the HasAuthentication Interface
+This interface is only implemented in ChromiumDriver only(only is Edge n Chrome based browser)
+
+================================================================
+Whenever you see the attribute target="_blank" in a link, on clicking it, it opens on a new window or tab 
+<a href="/en/company/executive-profiles/" target="_blank" rel="noopener">Executive Profile</a>
+
+This link opens on the same window as it doesn't have target="_blank" attribute
+<button class="btn btn-ohrm btn-contact-sales" fdprocessedid="5ghe7">Book a Free Demo</button>
+

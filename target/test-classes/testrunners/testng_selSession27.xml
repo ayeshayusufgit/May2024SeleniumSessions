@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Regression Suite" verbose="3">
+	<test name="Google Test">
+		<parameter name="url" value="https://www.google.com" />
+		<classes>
+			<class name="seleniumSession27.UITests.GoogleTest" />
+		</classes>
+	</test>
+	<test name="OpenCart Test">
+		<parameter name="url" value="https://naveenautomationlabs.com/opencart/index.php?route=account/login" />
+		<classes>
+			<class name="seleniumSession27.UITests.LoginPageTest4" />
+		</classes>
+	</test>
+
+	<test name="OrangeHRM Test">
+		<parameter name="url" value="https://orangehrm.com/en/30-day-free-trial" />
+		<classes>
+			<class name="seleniumSession27.UITests.OrangeHRMTest" />
+		</classes>
+	</test>
+</suite>
+
+<!--the sequence of execution of the testcases will be in the same order in which its written in testng.xml-->
+<!--the range of verbose is from 1 to 10-->
+<!-- such that 1 is minimum and 10 is maximum-->
+<!--testNG provides logs which are displayed on the console-->
+<!--3 or 4  are  are mostly used-->
+<!--this is a bundled runner where all the test classes are bundled together and executed-->
+<!--2 test blocks shouldnt have the same name-->
